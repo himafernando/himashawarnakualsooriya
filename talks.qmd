@@ -1,0 +1,70 @@
+---
+format: html
+---
+
+<style>
+  /* Table styling */
+  .colored-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .colored-table th, .colored-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+  .colored-table th {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+
+  .colored-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+
+  .colored-table tr:hover {
+    background-color: #d1e7fd;
+  }
+
+  .colored-table a {
+    color: #007bff;
+    text-decoration: none;
+  }
+
+  .colored-table a:hover {
+    text-decoration: underline;
+  }
+</style>
+
+## Talks {#talks}
+
+<table class="colored-table">
+  <thead>
+    <tr>
+      <th>Date</th>
+      <th>Title</th>
+      <th>Venue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>23-Nov-2023</td>
+      <td><a href="https://sms.wgtn.ac.nz/Events/AAERS2023/AbstractHimashaWarnakulasooriya">Optimal systematic longevity risk-sharing designs for annuities: reconciling policyholder's and insurer's perspectives</a></td>
+      <td>2023 Australasian Actuarial Education and Research Symposium, Victoria University of Wellington, New Zealand</td>
+    </tr>
+    <tr>
+      <td>17-Feb-2021</td>
+      <td><a href="https://www.sci.ruh.ac.lk/conference/ristcon2021/proceedings/RISTCON2021_Proceedings.pdf">Time Series Model to Forecast Monthly Average White Raw Rice Prices in Colombo, Sri Lanka</a></td>
+      <td>8th Ruhuna International Science & Technology Conference, Faculty of Science, University of Ruhuna, Sri Lanka</td>
+    </tr>
+    <tr>
+      <td>26-Nov-2020</td>
+      <td><a href="http://repository.kln.ac.lk/handle/123456789/21824">Reduction of Experimental Error in Coconut Research by Choosing Proper Data Analysis Techniques</a></td>
+      <td>International Conference on Applied and Pure Sciences, Faculty of Science, University of Kelaniya, Sri Lanka</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
